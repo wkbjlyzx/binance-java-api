@@ -1,6 +1,9 @@
 # Java Binance API
+币安api文档 https://github.com/binance/binance-spot-api-docs  
+postman 文件 https://github.com/binance/binance-api-postman  
+币安测试网：https://testnet.binance.vision/  
+这个API文档更全 https://binance-docs.github.io/apidocs/spot/cn/#api-key  
 
-binance-java-api is a lightweight Java library for interacting with the [Binance API](https://www.binance.com/restapipub.html), providing complete API coverage, and supporting synchronous and asynchronous requests, as well as event streaming using WebSockets.
 
 ## Features
 * Support for synchronous and asynchronous REST requests to all [General](https://www.binance.com/restapipub.html#user-content-general-endpoints), [Market Data](https://www.binance.com/restapipub.html#user-content-market-data-endpoints), [Account](https://www.binance.com/restapipub.html#user-content-account-endpoints) endpoints, and [User](https://www.binance.com/restapipub.html#user-content-user-data-stream-endpoints) stream endpoints.
