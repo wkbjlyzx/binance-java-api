@@ -24,10 +24,10 @@ public interface BinanceApiService {
 
     // General endpoints
 
-    @GET("/api/v1/ping")
+    @GET("/api/v3/ping")
     Call<Void> ping();
 
-    @GET("/api/v1/time")
+    @GET("/api/v3/time")
     Call<ServerTime> getServerTime();
 
     @GET("/api/v1/exchangeInfo")
@@ -38,7 +38,7 @@ public interface BinanceApiService {
 
     // Market data endpoints
 
-    @GET("/api/v1/depth")
+    @GET("/api/v3/depth")
     Call<OrderBook> getOrderBook(@Query("symbol") String symbol, @Query("limit") Integer limit);
 
     @GET("/api/v1/trades")
