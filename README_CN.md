@@ -4,7 +4,8 @@ postman 文件 https://github.com/binance/binance-api-postman
 币安测试网：https://testnet.binance.vision/  
 这个API文档更全 https://binance-docs.github.io/apidocs/spot/cn/#api-key  
 
-
+## 比较有用的币安说明文档。
+ 如果在本地维护一个订单薄：https://binance-docs.github.io/apidocs/spot/cn/#orderbook  
 ## Features
 * Support for synchronous and asynchronous REST requests to all [General](https://www.binance.com/restapipub.html#user-content-general-endpoints), [Market Data](https://www.binance.com/restapipub.html#user-content-market-data-endpoints), [Account](https://www.binance.com/restapipub.html#user-content-account-endpoints) endpoints, and [User](https://www.binance.com/restapipub.html#user-content-user-data-stream-endpoints) stream endpoints.
 * Support for User Data, Trade, Kline, and Depth event streaming using [Binance WebSocket API](https://www.binance.com/restapipub.html#wss-endpoint).
